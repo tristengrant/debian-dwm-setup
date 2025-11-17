@@ -42,6 +42,7 @@ ln -sf "$HOME_DIR/Projects/dotfiles/config/kitty" "$HOME_DIR/.config/kitty"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/mpv" "$HOME_DIR/.config/mpv"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/qt5ct" "$HOME_DIR/.config/qt5ct"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/mpd" "$HOME_DIR/.config/mpd"
+ln -sf "$HOME_DIR/Projects/dotfiles/config/sxhkd" "$HOME_DIR/.config/sxhkd"
 
 # In home directory
 ln -sf "$HOME_DIR/Projects/dotfiles/dot_xinitrc" "$HOME_DIR/.xinitrc"
@@ -60,6 +61,5 @@ source /home/tristen/.bashrc
 echo "Cloning scripts repo..."
 cd "$HOME_DIR/Projects"
 [ -d "$HOME_DIR/Projects/scripts" ] || git clone https://github.com/tristengrant/scripts.git
-chmod +x ~/home/tristen/Projects/scripts/*
 
 chmod +x /home/tristen/.xinitrc
