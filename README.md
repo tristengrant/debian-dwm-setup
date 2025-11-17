@@ -1,2 +1,3 @@
-# debian-dwm-setup
-My Debian DWM seutp scripts for my ThinkPad T480 and Desktop
+# My Debian DWM Setup Script
+
+Separate setup scripts for my Thinkpad T480 and Desktop builds.
