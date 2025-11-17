@@ -57,4 +57,9 @@ ln -sf "$HOME_DIR/Projects/dotfiles/local/share/applications/st.desktop" "$HOME_
 
 source /home/tristen/.bashrc
 
+echo "Cloning scripts repo..."
+cd "$HOME_DIR/Projects"
+[ -d "$HOME_DIR/Projects/scripts" ] || git clone https://github.com/tristengrant/scripts.git
+chmod +x ~/home/tristen/Projects/scripts/*
+
 chmod +x /home/tristen/.xinitrc
