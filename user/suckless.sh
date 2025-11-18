@@ -38,7 +38,6 @@ build_component() {
 }
 
 build_component "dwm"
-build_component "st"
 build_component "dmenu"
 build_component "slock"
 #build_component "slstatus"
