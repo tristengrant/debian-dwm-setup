@@ -36,7 +36,6 @@ cd "$HOME_DIR/Projects"
 
 # In .config
 ln -sf "$HOME_DIR/Projects/dotfiles/config/Thunar" "$HOME_DIR/.config/Thunar"
-ln -sf "$HOME_DIR/Projects/dotfiles/config/picom" "$HOME_DIR/.config/picom"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/helix" "$HOME_DIR/.config/helix"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/kitty" "$HOME_DIR/.config/kitty"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/mpv" "$HOME_DIR/.config/mpv"
