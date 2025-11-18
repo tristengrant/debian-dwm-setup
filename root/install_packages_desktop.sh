@@ -25,13 +25,6 @@ fc-cache -fv
 echo "Install NPM packages for coding..."
 npm install -g prettier stylelint typescript typescript-language-server vscode-langservers-extracted bash-language-server yaml-language-server
 
-# Set wezterm as default terminal emulator (fixes Debian 13 defaulting to lxterminal)
-if command -v wezterm &> /dev/null && command -v update-alternatives &> /dev/null; then
-    echo "Setting wezterm as default terminal emulator..."
-    update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/wezterm 50
-    update-alternatives --set x-terminal-emulator /usr/bin/wezterm
-fi
-
 echo "Cleaning up..."
 apt autoremove -y
 apt clean
