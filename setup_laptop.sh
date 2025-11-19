@@ -7,7 +7,7 @@ sudo ./root/create_groups.sh
 sudo ./root/enable_services.sh
 
 # User-level tasks
-./user/dotfiles.sh
+./user/dotfiles_laptop.sh
 ./user/apps_laptop.sh
 ./user/suckless.sh
 ./user/dwmblocks_laptop.sh

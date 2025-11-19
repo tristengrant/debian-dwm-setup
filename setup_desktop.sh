@@ -5,9 +5,10 @@ set -euo pipefail
 sudo ./root/install_packages_desktop.sh
 sudo ./root/create_groups.sh
 sudo ./root/enable_services.sh
+sudo ./root/mount_music.sh
 
 # User-level tasks
-./user/dotfiles.sh
+./user/dotfiles_desktop.sh
 ./user/scripts.sh
 ./user/apps_desktop.sh
 ./user/suckless.sh

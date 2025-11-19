@@ -44,7 +44,7 @@ ln -sf "$HOME_DIR/Projects/dotfiles/config/mpd" "$HOME_DIR/.config/mpd"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/sxhkd" "$HOME_DIR/.config/sxhkd"
 
 # In home directory
-ln -sf "$HOME_DIR/Projects/dotfiles/dot_xinitrc" "$HOME_DIR/.xinitrc"
+ln -sf "$HOME_DIR/Projects/dotfiles/desktop_dot_xinitrc" "$HOME_DIR/.xinitrc"
 ln -sf "$HOME_DIR/Projects/dotfiles/dot_bashrc" "$HOME_DIR/.bashrc"
 ln -sf "$HOME_DIR/Projects/dotfiles/dot_bash_aliases" "$HOME_DIR/.bash_aliases"
 ln -sf "$HOME_DIR/Projects/dotfiles/dot_nanorc" "$HOME_DIR/.nanorc"
