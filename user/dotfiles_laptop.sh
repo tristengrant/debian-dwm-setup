@@ -38,10 +38,9 @@ cd "$HOME_DIR/Projects"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/Thunar" "$HOME_DIR/.config/Thunar"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/helix" "$HOME_DIR/.config/helix"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/kitty" "$HOME_DIR/.config/kitty"
-ln -sf "$HOME_DIR/Projects/dotfiles/config/mpv" "$HOME_DIR/.config/mpv"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/qt5ct" "$HOME_DIR/.config/qt5ct"
-ln -sf "$HOME_DIR/Projects/dotfiles/config/mpd" "$HOME_DIR/.config/mpd"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/sxhkd" "$HOME_DIR/.config/sxhkd"
+ln -sf "$HOME_DIR/Projects/dotfiles/config/picom" "$HOME_DIR/.config/picom"
 
 # In home directory
 ln -sf "$HOME_DIR/Projects/dotfiles/laptop_dot_xinitrc" "$HOME_DIR/.xinitrc"
@@ -53,7 +52,6 @@ ln -sf "$HOME_DIR/Projects/dotfiles/dot_xprofile" "$HOME_DIR/.xprofile"
 
 # In .local/share/applications
 ln -sf "$HOME_DIR/Projects/dotfiles/local/share/application/qimgv.desktop" "$HOME_DIR/.local/share/applications/qimgv.desktop"
-ln -sf "$HOME_DIR/Projects/dotfiles/local/share/applications/st.desktop" "$HOME_DIR/.local/share/applications/st.desktop"
 
 source /home/tristen/.bashrc
 
