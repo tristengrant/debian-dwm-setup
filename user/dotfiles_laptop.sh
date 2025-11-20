@@ -49,6 +49,7 @@ ln -sf "$HOME_DIR/Projects/dotfiles/dot_bash_aliases" "$HOME_DIR/.bash_aliases"
 ln -sf "$HOME_DIR/Projects/dotfiles/dot_nanorc" "$HOME_DIR/.nanorc"
 ln -sf "$HOME_DIR/Projects/dotfiles/dot_profile" "$HOME_DIR/.profile"
 ln -sf "$HOME_DIR/Projects/dotfiles/dot_xprofile" "$HOME_DIR/.xprofile"
+ln -sf "$HOMW_DIR/Projects/dotfiles/laptop_dot_Xmodmod" "$HOME_DIR/.Xmodmap"
 
 # In .local/share/applications
 ln -sf "$HOME_DIR/Projects/dotfiles/local/share/application/qimgv.desktop" "$HOME_DIR/.local/share/applications/qimgv.desktop"
