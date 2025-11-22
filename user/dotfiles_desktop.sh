@@ -41,8 +41,10 @@ ln -sf "$HOME_DIR/Projects/dotfiles/config/kitty" "$HOME_DIR/.config/kitty"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/mpv" "$HOME_DIR/.config/mpv"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/qt5ct" "$HOME_DIR/.config/qt5ct"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/mpd" "$HOME_DIR/.config/mpd"
-ln -sf "$HOME_DIR/Projects/dotfiles/config/sxhkd" "$HOME_DIR/.config/sxhkd"
+ln -sf "$HOME_DIR/Projects/dotfiles/config/dunst" "$HOME_DIR/.config/dunst"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/picom" "$HOME_DIR/.config/picom"
+ln -sf "$HOME_DIR/Projects/dotfiles/config/nvim" "$HOME_DIR/.config/nvim"
+ln -sf "$HOME_DIR/Projects/dotfiles/config/gtk-3.0" "$HOME_DIR/.config/gtk-3.0"
 
 # In home directory
 ln -sf "$HOME_DIR/Projects/dotfiles/desktop_dot_xinitrc" "$HOME_DIR/.xinitrc"
