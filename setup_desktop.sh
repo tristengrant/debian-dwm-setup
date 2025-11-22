@@ -9,7 +9,6 @@ sudo ./root/mount_music.sh
 
 # User-level tasks
 ./user/dotfiles_desktop.sh
-./user/scripts.sh
 ./user/apps_desktop.sh
 ./user/suckless.sh
 ./user/dwmblocks_desktop.sh
