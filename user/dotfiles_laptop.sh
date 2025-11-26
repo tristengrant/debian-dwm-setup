@@ -36,11 +36,16 @@ cd "$HOME_DIR/Projects"
 
 # In .config
 ln -sf "$HOME_DIR/Projects/dotfiles/config/Thunar" "$HOME_DIR/.config/Thunar"
-ln -sf "$HOME_DIR/Projects/dotfiles/config/helix" "$HOME_DIR/.config/helix"
+#ln -sf "$HOME_DIR/Projects/dotfiles/config/helix" "$HOME_DIR/.config/helix"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/kitty" "$HOME_DIR/.config/kitty"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/qt5ct" "$HOME_DIR/.config/qt5ct"
 ln -sf "$HOME_DIR/Projects/dotfiles/config/sxhkd" "$HOME_DIR/.config/sxhkd"
-ln -sf "$HOME_DIR/Projects/dotfiles/config/picom" "$HOME_DIR/.config/picom"
+#ln -sf "$HOME_DIR/Projects/dotfiles/config/picom" "$HOME_DIR/.config/picom"
+ln -sf "$HOME_DIR/Projects/dotfiles/config/nvim" "$HOME_DIR/.config/nvim"
+ln -sf "$HOME_DIR/Projects/dotfiles/config/gtk-3.0" "$HOME_DIR/.config/gtk-3.0"
+ln -sf "$HOME_DIR/Projects/dotfiles/config/tmux" "$HOME_DIR/.config/tmux"
+ln -sf "$HOME_DIR/Projects/dotfiles/config/qimgv" "$HOME_DIR/.config/qimgv"
+ln -sf "$HOME_DIR/Projects/dotfiles/config/mimeapps.list" "$HOME_DIR/.config/mimeapps.list"
 
 # In home directory
 ln -sf "$HOME_DIR/Projects/dotfiles/laptop_dot_xinitrc" "$HOME_DIR/.xinitrc"
@@ -53,6 +58,9 @@ ln -sf "$HOMW_DIR/Projects/dotfiles/laptop_dot_Xmodmod" "$HOME_DIR/.Xmodmap"
 
 # In .local/share/applications
 ln -sf "$HOME_DIR/Projects/dotfiles/local/share/application/qimgv.desktop" "$HOME_DIR/.local/share/applications/qimgv.desktop"
+ln -sf "$HOME_DIR/Projects/dotfiles/local/share/applications/neovim.desktop" "$HOME_DIR/.local/share/applications/neovim.desktop"
+ln -sf "$HOME_DIR/Projects/dotfiles/local/share/applications/st.desktop" "$HOME_DIR/.local/share/applications/st.desktop"
+ln -sf "$HOME_DIR/Projects/dotfiles/local/share/applications/userapp-Firefox-V09YF3.desktop" "$HOME_DIR/.local/share/applications/userapp-Firefox-V09YF3.desktop"
 
 source /home/tristen/.bashrc
 
