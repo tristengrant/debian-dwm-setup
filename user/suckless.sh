@@ -33,6 +33,7 @@ build_component() {
     make
     sudo make install
     make clean
+    rm -rf config.h
 
     echo "$COMP_NAME built and installed."
 }
@@ -40,6 +41,7 @@ build_component() {
 build_component "dwm"
 build_component "dmenu"
 build_component "slock"
-#build_component "slstatus"
+build_component "st-0.8.5"
+build_component "nsxiv"
 
 echo "All suckless software built and installed successfully."

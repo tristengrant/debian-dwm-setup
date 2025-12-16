@@ -2,16 +2,14 @@
 set -euo pipefail
 
 # Root-level tasks
-sudo ./root/install_packages_laptop.sh
-sudo ./root/create_groups.sh
-sudo ./root/enable_services.sh
+sudo ./root/install-packages-laptop.sh
+sudo ./root/create-groups.sh
+sudo ./root/enable-services.sh
 
 # User-level tasks
-./user/dotfiles_laptop.sh
-./user/apps_laptop.sh
+./user/dotfiles-laptop.sh
 ./user/suckless.sh
-./user/dwmblocks_laptop.sh
-./user/theme.sh
+./user/dwmblocks-laptop.sh
 
 sudo chown -R tristen:tristen /home/tristen/*
 
