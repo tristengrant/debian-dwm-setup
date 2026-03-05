@@ -38,10 +38,10 @@ build_component() {
     echo "$COMP_NAME built and installed."
 }
 
-build_component "dwm"
+build_component "dwm-6.8"
 build_component "dmenu"
 build_component "slock"
-build_component "st-0.8.5"
+build_component "st-0.9.3"
 build_component "nsxiv"
 
 echo "All suckless software built and installed successfully."

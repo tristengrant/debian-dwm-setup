@@ -33,21 +33,21 @@ BASE_PKGS=(xorg xorg-dev xinit xinput xauth xdotool dbus-x11 xserver-xorg-input-
 
 WM_PKGS=(build-essential libx11-dev libxft-dev libxinerama-dev libxrandr-dev libx11-xcb-dev libxext-dev libxcb1-dev libxcb-util0-dev libxcb-keysyms1-dev libxcb-randr0-dev libxcb-xinerama0-dev libxcb-icccm4-dev libxcb-res0-dev libqt5xml5t64 cmake ninja-build)
 
-IMG_VID_PKGS=(mpv tumbler tumbler-plugins-extra ffmpegthumbnailer zathura zathura-ldf-poppler scrot)
+IMG_VID_PKGS=(mpv tumbler tumbler-plugins-extra ffmpegthumbnailer scrot)
 
-UTILITY_PKGS=(feh nano dunst xcape xbindkeys ncdu openssh-client openssh-server sshfs cifs-utils smbclient xclip xdotool picom python3 python-is-python3 lm_sensors j4-dmenu-desktop htop fd-find acpi arandr autorandr mesa-utils acpid)
+UTILITY_PKGS=(feh nano dunst openssh-client openssh-server sshfs cifs-utils smbclient xclip xdotool picom python3 python-is-python3 lm_sensors j4-dmenu-desktop htop fd-find arandr)
 
-FILE_PKGS=(pcmanfm lf syncthing filezilla displaycal colord unar unzip tar gzip zip 7zip)
+FILE_PKGS=(pcmanfm lf syncthing filezilla unar unzip tar gzip zip 7zip)
 
 THEME_PKGS=(breeze-gtk-theme)
 
-FONT_PKGS=(fonts-noto-core fonts-noto-mono fonts-noto-color-emoji fonts-jetbrains-mono fonts-font-awesome)
+FONT_PKGS=(fonts-noto-core fonts-noto-mono fonts-noto-color-emoji fonts-noto-cjk fonts-jetbrains-mono fonts-font-awesome)
 
 BROWSER_PKGS=(firefox firefox-l10n-en-ca)
 
 AUDIOSTACK_PKGS=(pipewire pipewire-audio pipewire-pulse pipewire-alsa pipewire-jack wireplumber pavucontrol rtkit alsa-utils)
 
-DEV_PKGS=(fzf jq ripgrep tmux nodejs npm hugo node-copy-paste)
+DEV_PKGS=(fzf jq ripgrep nodejs npm)
 
 PRINTING_PKGS=(cups-filters cups printer-driver-cups-pdf printer-driver-brlaser system-config-printer avahi-daemon)
 
